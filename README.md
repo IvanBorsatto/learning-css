@@ -176,3 +176,13 @@ Exemplo:
     font: bold italic .8em/1.2 Arial, sans-serif;
 }
 ```
+
+### FUNÇÕES
+
+Um tipo de valor existente no CSS, é estruturado com um nome seguido de abre e fecha parênteses, que recebe um argumento/valor, que são seus valores.
+
+Um exemplo de função é:
+
+```
+color: rgb(255,0,100);
+```
