@@ -38,3 +38,11 @@ Define os elementos apresentados em tela, bem como, aparência e formatação de
 - **none**: o elemento é completamente removido;
 - **initial**: Herda esta propriedade de se elemento pai;
 - **flex**: Exibe um elemento como um flex container e nível de bloco;
+
+### COMENTÁRIOS
+
+Os comentários são feitos da seguinte forma: abrem com /_ e terminam com _/ .
+
+```bash
+/* o que ficar aqui dentro será considerado comentário */
+```
