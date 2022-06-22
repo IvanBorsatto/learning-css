@@ -68,3 +68,45 @@ Os comentários são feitos da seguinte forma: abrem com /_ e terminam com _/ .
 - Espaços fora da caixa: a **\*margin**;\*
 
 Quase todo elemento de uma página é considerado uma caixa: Posicionamentos, tamanhos, espaçamentos, bordas, cores, então, em suma, elementos HTML são caixas, assim como quase tudo no CSS.
+
+### MANEIRAS DE ESTILIZAÇÃO DO HTML
+
+- Inline
+  É feita por dentro do próprio HTML, através da tag _style_, utilizada da seguinte forma:
+  ```
+  <h1 style="color: blue;">Título
+  	<strong style="color: red;">alo</strong>
+  </h1>
+  ```
+  Ou dentro do _head_ do HTML, assim:
+  ```
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  	<style>
+  	h1 {
+  			color: blue;
+  			}
+
+  	strong {
+  			color: red;
+  			}
+  	</style>
+  </head>
+  ```
+- Link
+  A forma mais comum, é através da tag link, onde vamos linkar um documento CSS externo, um outro arquivo para nosso documento HTML, feito da seguinte forma:
+  ```
+  <link rel="stylesheet" href="style.css">
+  ```
+  Neste caso, o nosso documento CSS se chama _style.css_ e sua relação com o HTML é de _stylesheet_.
+- @import
+  Na verdade é uma regra do CSS, portanto, deve ser usada dentro do CSS, ao invés de dentro do HTML, como as duas primeiras formas, e seu uso é mostrado a seguir:
+  ```
+  @import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'
+  ```
+  Não é recomendado seu uso, pois leva um pouco mais de tempo do que através da tag link, fazendo a página ficar menos responsiva, demorando mais para o carregamento da mesma.
