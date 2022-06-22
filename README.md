@@ -136,3 +136,14 @@ Também temos os classes e attribute selectors, com valor de 10, ou seja, são m
 O segundo mais forte, ID selector, com um valor de 100, vence todos os selectors anteriores.
 
 Por fim, temos o inline, com o valor 1000, quaisquer desses selectors anteriormente citado
+
+### AT RULES (@)
+
+São regras relacionadas ao comportamento do CSS, começa com um sinal de @ seguido do identificador e do valor.
+
+São as seguintes:
+
+- @import serve para incluir um CSS externo.
+- @media são regras condicionais para vários dispositivos.
+- @font-face é para colocar fontes externas.
+- @keyframes serve para as animations do CSS.
