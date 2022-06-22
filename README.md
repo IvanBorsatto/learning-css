@@ -73,12 +73,15 @@ Quase todo elemento de uma página é considerado uma caixa: Posicionamentos, t
 
 - Inline
   É feita por dentro do próprio HTML, através da tag _style_, utilizada da seguinte forma:
+
   ```
   <h1 style="color: blue;">Título
   	<strong style="color: red;">alo</strong>
   </h1>
   ```
+
   Ou dentro do _head_ do HTML, assim:
+
   ```
   <!DOCTYPE html>
   <html lang="en">
@@ -98,6 +101,7 @@ Quase todo elemento de uma página é considerado uma caixa: Posicionamentos, t
   	</style>
   </head>
   ```
+
 - Link
   A forma mais comum, é através da tag link, onde vamos linkar um documento CSS externo, um outro arquivo para nosso documento HTML, feito da seguinte forma:
   ```
@@ -110,3 +114,13 @@ Quase todo elemento de uma página é considerado uma caixa: Posicionamentos, t
   @import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'
   ```
   Não é recomendado seu uso, pois leva um pouco mais de tempo do que através da tag link, fazendo a página ficar menos responsiva, demorando mais para o carregamento da mesma.
+
+### CASCATA (Cascading)
+
+Seu estilo é lido de cima para baixo, ou seja, caso haja algum selector com informações conflitantes, o mais embaixo é o que será atribuído.
+
+São levados em consideração 3 fatores:
+
+- A origem do estilo;
+- A especificidade;
+- A importância;
