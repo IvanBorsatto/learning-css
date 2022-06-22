@@ -186,3 +186,23 @@ Um exemplo de função é:
 ```
 color: rgb(255,0,100);
 ```
+
+### VENDOR PREFIXES
+
+São coisas que permitem que browsers adicionem _features_ a fim de colocar em uso alguma novidade que vemos no CSS.
+
+Exemplos:
+
+```
+p {
+	-webkit-background-clip: text; /*Chrome, Safari, iOS e Android*/
+	-moz-background-clip: text; /* Mozilla (Firefox) */
+	-ms-background-clip: text; /* Internet Explorer ou Edge*/
+	-o-background-clip: text; /* Opera */
+```
+
+Você também pode consultar se a feature pode ser utilizada através dos sites:
+
+**[https://ireade.github.io/which-vendor-prefix](http://ireade.github.io/which-vendor-prefix)**
+
+**[https://caniuse.com](http://caniuse.com/)**
