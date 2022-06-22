@@ -56,3 +56,15 @@ Os comentários são feitos da seguinte forma: abrem com /_ e terminam com _/ .
 **Properties**: As coisas a serem alteradas.
 
 **Property values**: Os novos valores que estamos atribuindo a tais propriedades.
+
+### BOX MODEL
+
+É uma caixa retangular. Essa caixa possui as mesmas propriedades de uma caixa 2D, e tem como propriedades:
+
+- Tamanho (largura x altura **\*width** e **height\***);
+- Conteúdo: o **\*content**;\*
+- Bordas: o **\*border**;\*
+- Preenchimento interno: o **\*padding**;\*
+- Espaços fora da caixa: a **\*margin**;\*
+
+Quase todo elemento de uma página é considerado uma caixa: Posicionamentos, tamanhos, espaçamentos, bordas, cores, então, em suma, elementos HTML são caixas, assim como quase tudo no CSS.
