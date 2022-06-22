@@ -17,7 +17,7 @@ Define os elementos apresentados em tela, bem como, aparência e formatação de
 ### Display’s
 
 - **inline**: Exibe um elemento embutido, em linha (como <span>);
-- **block**: Exibe um elemento em bloco, começa em uma nova linha e ocupa toda a largura (como <p>);
+- **block**: Exibe um elemento em bloco, começa em uma nova linha e ocupa toda a largura(como <p>);
 - **contents**: Faz com que os filhos de um elemento apareçam como se fossem filhos diretos do pai, ignorando o próprio elemento (pode ser útil quando um wrapper deve ser ignorado ao usar CSS grid ou técnicas de layout semelhantes);
 - **grid**: Exibe um elemento como um grid container em nível de bloco (divide o layout em partes).
 - **inline-block**: Exibe um elemento como um block container de nível embutido. O próprio elemento é formatado como um elemento embutido, mas podemos aplicar valores de altura(height) e largura(width);
