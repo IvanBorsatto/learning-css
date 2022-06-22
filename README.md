@@ -46,3 +46,13 @@ Os comentários são feitos da seguinte forma: abrem com /_ e terminam com _/ .
 ```bash
 /* o que ficar aqui dentro será considerado comentário */
 ```
+
+### ANATOMIA
+
+**Selectors**: Nesse caso o h1, que vai buscar no HTML a tag h1 e aplicar as mudanças.
+
+**Declaration**: As chaves e tudo dentro delas.
+
+**Properties**: As coisas a serem alteradas.
+
+**Property values**: Os novos valores que estamos atribuindo a tais propriedades.
